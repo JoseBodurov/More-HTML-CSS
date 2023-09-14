@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px){
+    .hero img{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65px;
+    }
+    .hero h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .hero p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .hero-btns a:first-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin-left: 140px;
+    }
+    .hero-btns a:last-child{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin-left: 140px;
+    }
+    .hero-btns{
+        margin-bottom: 150px;
+    }
+    h2{
+        text-align: center;
+        font-size: 42px;
+    }
+    div.col-12.col-sm-6.col-lg-4{
+        margin-left: 18%;
+    }   
+    .service-box{
+        width: 150%;
+        padding-bottom: 140px;
+        margin-bottom: 50px;
+    }
+    .services{
+        margin-bottom: 70px;
+    }
+    h5{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    footer .container{
+        margin-top: -30px;
+    }
+    .contact-nav li{
+        display: block;
+    }
+    footer h3{
+        font-size: 55px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+    .about p{
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .contact-btn{
+        display: none;
+    }
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width:600px) {
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav img{
+        display: block;
+
+    }
+    header nav ul{
+        display: block;
+    }
+    header nav ul li{
+        display: block;
+        text-align: center;
+    }
+    .header-title{
+        padding: 1.1em;
+    }
+    .header-title h1{
+        font-size: 40px;
+    }
+    .blog-section p:nth-child(2), .team-description p:nth-child(2), .about-us p:nth-child(2){
+        font-size: 14px;
+    }
+    .about-us p:nth-child(3){
+        font-size: 12px;
+        width: 70%;
+    }
+    .team-description ul li{
+        display: block;
+        margin: 12px;
+        position: relative;
+        right: 40px;
+    }
+    .team-description ul li img{
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
